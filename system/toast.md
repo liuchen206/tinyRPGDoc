@@ -14,4 +14,4 @@ SystemToast.instance.showToast('需要输出的字符串');
 - 预期效果
   - 屏幕上依次显示输出内容且后输出的内容将先输入的内容向上顶
 - 测试截图
-  - ![预览效果](img/toastTest.png)
+  - ![预览效果](img/toastTest.gif)

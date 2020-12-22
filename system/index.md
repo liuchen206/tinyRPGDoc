@@ -6,3 +6,4 @@
 
 - 模块目录
   - [toast 模块](toast.md) 
+  - [dialog 模块](dialog.md) 

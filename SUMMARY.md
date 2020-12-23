@@ -3,7 +3,7 @@
 * [从这开始](started.md) 
 * [系统通用模块](system/index.md) 
 	* [悬浮提示字符功能](system/toast.md) 
-	* [弹出式对话框](system/dialog.md) 
+	* [弹出式对话框综合管理](system/PopLikeDialog.md) 
 	* [本地消息功能](system/event.md) 
 	* [策划数据读取](system/jsonData.md) 
 	* [本地数据读取](system/localDataBase.md) 

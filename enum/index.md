@@ -10,3 +10,5 @@
   - [允许在格子中放置的物品类型 ](./itemType.md)
   - [装备部位](./equipPosition.md)
   - [玩家角色类型](./CharacterType.md)
+  - [单双击输入事件](./CLICK_EVENT.md)
+  - [拖拽输入事件](./DRAG_DROP_EVENT.md)

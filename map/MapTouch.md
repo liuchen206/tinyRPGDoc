@@ -17,3 +17,7 @@
 
 - ![截图](img/girdtest.PNG)
 - ![截图](img/getDiamondColRow.gif)
+
+## 游戏对象移动用例
+
+- 沿用 [对象移动中的例子](../obj/OBJMovement.md)

@@ -3,9 +3,9 @@
 ```ts
 // 角色模型类型
 export enum CharacterType {
-    Ancher = 0,
-    Gaint,
-    Angler,
+    Ancher = 0, // 弓手
+    Gaint, // 巨人
+    Angler, // 天使
 }
 ```
 

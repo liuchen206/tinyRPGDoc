@@ -12,3 +12,5 @@
   - [玩家角色类型](./CharacterType.md)
   - [单双击输入事件](./CLICK_EVENT.md)
   - [拖拽输入事件](./DRAG_DROP_EVENT.md)
+  - [游戏对象 普通攻击技能类型](./OBJSkillTYPE.md)
+  - [游戏中的阵营](./BattleTeam.md)

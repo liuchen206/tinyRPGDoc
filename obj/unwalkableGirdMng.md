@@ -22,3 +22,4 @@ currentStayColRow: cc.Vec2 = cc.Vec2.ZERO;
 
 - unlock() 开启功能（包括停止更新位置信息，清除已经标记的占据格子）
 - lock() 关闭功能
+- cleanUnwalkArea(gird: cc.Vec2) 传入一个点（应该是我刚刚占的点）。将所占据的格子，设置为能行走

@@ -3,6 +3,14 @@
 这个组件是描述一个游戏对象顶层控制脚本，一个游戏对象需要添加什么功能均通过此脚本管控和添加
 - ![代码在这](img/editor.PNG)
 
+## 外部接口
+
+- isLocked() 是否锁定
+- unlockOBJ() 解除锁定
+- lockOBJ() 锁定对象
+- releaseDragDrop() 释放拖拽操作
+- addDragDropFunc() 添加拖拽功能
+
 ## 那么应该怎么在面板上操作让一个普通的节点成为一个游戏对象并且具有一定功能？ 下面以创建一个最基本的游戏对象为例展示操作流程
 
 - 1，在地图中的 OBJS 根节点创建一个普通 node 节点，并且添加该脚本
@@ -51,6 +59,7 @@
     - ![截图](img/useeditorstep11.PNG)
   - 5，下面为该功能添加对应的功能代码
     - 控制对象拖拽操作的代码组件为 [RtsDragDrop](./RtsDragDrop.md)
+    - **注意** 关于在游戏对象中 inputdragdrop 组件添加在哪里的问题。1，如果你是个单张图片的静态对象，加在 editor 所在的node上，组件大家都在一起。2，如果是在动作的对象，加在动画的 OBJAnimateBody 上。其实我很想都加在 editor 上但是这个偷来的美术尺寸用的很不好，引起了这个问题。不过问题不大
     - ![截图](img/useeditorstep11.gif)
     - 最后我们的属性 inspector 面板是这样的
     - ![截图](img/useeditorstep12.PNG)

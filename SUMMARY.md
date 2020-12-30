@@ -26,6 +26,7 @@
 * [功能类](functionClass/index.md) 
 	* [属性数据类](functionClass/propertyGroup.md) 
 	* [玩家游戏数据管理类](functionClass/GameDateGroup.md) 
+	* [buff 数据结构](functionClass/buffStruct.md) 
 * [背包综合界面](bag_character_equp_skill/index.md) 
 * [玩家输入](playerInput/index.md) 
 	* [单击，双击](playerInput/InputClick.md) 
@@ -53,3 +54,4 @@
 	* [游戏内的 UI 管理模块](inGameLogic/UIMng.md) 
 * [通过学习获得的技能](learnSkill/index.md) 
 * [buff 系统](buff/index.md) 
+* [地图编辑](mapEditor/index.md) 
